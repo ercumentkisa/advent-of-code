@@ -1,0 +1,17 @@
+repositories {
+  mavenCentral()
+}
+
+subprojects {
+  apply plugin: 'java'
+  apply plugin: 'idea'
+
+  group 'com.ercumentkisa'
+  version '1.0-SNAPSHOT'
+
+  sourceCompatibility = 1.8
+  targetCompatibility = 1.8
+}
+
+dependencies {
+}
