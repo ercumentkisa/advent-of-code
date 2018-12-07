@@ -1,3 +1,3 @@
 ### Advent of Code
 
-Java solutions for Advent of Code: https://adventofcode.com/
+Java solutions for `Advent of Code` coding challenge: https://adventofcode.com/
