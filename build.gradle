@@ -1,7 +1,3 @@
-repositories {
-  mavenCentral()
-}
-
 subprojects {
   apply plugin: 'java'
   apply plugin: 'idea'
@@ -11,7 +7,12 @@ subprojects {
 
   sourceCompatibility = 1.8
   targetCompatibility = 1.8
-}
 
-dependencies {
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    compile 'org.apache.commons:commons-lang3:3.8.1'
+  }
 }
